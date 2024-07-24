@@ -286,7 +286,7 @@ df.dropna(inplace=True)
 - **Menyimpan Model**: Simpan model yang sudah dilatih menggunakan pustaka seperti `joblib` atau `pickle`.
 - **Deployment**: Deploy model ke lingkungan produksi di mana model dapat digunakan untuk membuat prediksi pada data baru.
 
-## Kode Sebelum Tuning
+### Kode Sebelum Tuning
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -379,7 +379,7 @@ Setelah proses pemodelan dan tuning hyperparameter, performa model dievaluasi me
 
 Dengan hasil ini, model Random Forest Regressor menunjukkan peningkatan performa yang signifikan setelah tuning hyperparameter, memberikan prediksi yang lebih akurat dan lebih sesuai dengan data aktual.
 
-Kode Setelah Tuning:
+### Kode Setelah Tuning:
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
